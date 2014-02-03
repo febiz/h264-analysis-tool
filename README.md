@@ -1,4 +1,4 @@
-h264_visat
+h264-analysis-tool
 ==========
 
-H264 Visual Analysis Tool
+H.264 Visual Analysis Tool
