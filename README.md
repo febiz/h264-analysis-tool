@@ -4,12 +4,13 @@ h264-analysis-tool
 Introduction:
 ==========
 This project implements an extension to the H.264 JM reference decoder 
-( http://iphome.hhi.de/suehring/tml ) that allows to visually analyse a video.
+(http://iphome.hhi.de/suehring/tml) that allows to visually analyse a video.
 For a quick demo visit http://www.youtube.com/watch?v=j1_YCLDdKuY
 
 Features:
 ==========
 (06.02.2014):
+
 - Display macroblock (MB) partitions (16x8, 8x16, 8x8) and sub-partitions
   (8x4, 4x8, 4x4) for intra (I), predicted (P) and bi-predicted (B) MBs.
 - Display MB mode (intra: red, inter: blue, SKIP/DIRECT: green)
@@ -21,15 +22,16 @@ Features:
 Building project:
 ===========
 (06.02.2014):
-Project includes CMake ( http://www.cmake.org ) file to build on multiple 
+
+Project includes CMake (http://www.cmake.org) file to build on multiple 
 platforms. Currently tested only on Windows 7 x64. 
 Required libraries:
-- JM reference software ( http://iphome.hhi.de/suehring/tml ): please download
+- JM reference software (http://iphome.hhi.de/suehring/tml): please download
   the reference software and install anywhere on your computer. Currently
   tested with release 18.2 and 18.6.
-- OpenCV ( http://opencv.org ): please download the OpenCV library and install
+- OpenCV (http://opencv.org): please download the OpenCV library and install
   anywhere on your computer. Currently tested with version 2.4.4.
-- Zlib ( http://www.zlib.net ): please donwload the zlib library and install
+- Zlib (http://www.zlib.net): please donwload the zlib library and install
   anywhere on your computer.
   
 Create a build directory in the root folder. Open a terminal and go to the build
