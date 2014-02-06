@@ -21,7 +21,7 @@ Features:
 Building project:
 ===========
 (06.02.2014):
-Project includes CMake ( http://www.cmake.org )file to build on multiple 
+Project includes CMake ( http://www.cmake.org ) file to build on multiple 
 platforms. Currently tested only on Windows 7 x64. 
 Required libraries:
 - JM reference software ( http://iphome.hhi.de/suehring/tml ): please download
@@ -32,7 +32,6 @@ Required libraries:
 - Zlib ( http://www.zlib.net ): please donwload the zlib library and install
   anywhere on your computer.
   
-CMake:
 Create a build directory in the root folder. Open a terminal and go to the build
 folder. Execute the command:
 > cmake .. -DJM_DIR:PATH=path_to_JM
@@ -41,8 +40,9 @@ folder. Execute the command:
   software
 - In case CMake does not find OpenCV add the argument
 > -DOpenCV_DIR:PATH=path_to_OpenCV_build
+
   Adapt path_to_OpenCV_build such that it points to the build directory of your
-  OpenCV installation
+  OpenCV installation.
   
 Now you can compile the generated make/project files.
 
