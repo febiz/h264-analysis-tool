@@ -26,9 +26,9 @@ public:
 		enabled_mb_modes(true), enabled_mv_(true), enabled_mb_info_(false), enabled_frame_info_(true)
 	{
 	};
-	/*~Vis() {
+	~Vis() {
 		wipe_buffers();
-	}*/
+	}
 	// display ----------------------------------------------------------------
 	bool play(bool dec);
 	static void mouse_callback(int event, int x, int y, int flags, void* class_ptr);
@@ -77,6 +77,6 @@ private:
 	// buffers and metadata
 	std::vector<std::vector<std::pair<cv::Mat, int> > > frames_;
 	std::vector<std::vector<std::pair<std::vector<MacroblockInfo>, int> > > mb_data_;
-	static const int max_buffer_size_ = 4;
+	static const int max_buffer_size_ = 60;
 };
 #endif // _VIS_H_
