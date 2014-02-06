@@ -26,12 +26,12 @@ Building project:
 Project includes CMake (http://www.cmake.org) file to build on multiple 
 platforms. Currently tested only on Windows 7 x64. 
 Required libraries:
-- JM reference software (http://iphome.hhi.de/suehring/tml): please download
+- JM reference software (http://iphome.hhi.de/suehring/tml). Please download
   the reference software and install anywhere on your computer. Currently
   tested with release 18.2 and 18.6.
-- OpenCV (http://opencv.org): please download the OpenCV library and install
+- OpenCV (http://opencv.org). Please download the OpenCV library and install
   anywhere on your computer. Currently tested with version 2.4.4.
-- Zlib (http://www.zlib.net): please donwload the zlib library and install
+- Zlib (http://www.zlib.net). Please donwload the zlib library and install
   anywhere on your computer.
   
 Create a build directory in the root folder. Open a terminal and go to the build
