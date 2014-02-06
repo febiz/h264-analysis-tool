@@ -1,15 +1,6 @@
 cmake_minimum_required( VERSION 2.8 ) 
 project( h264-analysis-tool )
 
-## EDIT HERE ##################################################################
-# Point to folder where JM library is installed (MANDATORY)
-# Tested with JM 18.6
-set( JM_DIR C:/libs/JM)
-# In case OpenCV is not found please point CMake variable 
-# OpenCV_DIR to your build of OpenCV library
-set( OpenCV_DIR C:/libs/opencv2.4.4/build ) 
-###############################################################################
-
 set( NAME_SRC
     src/main.cpp
 	src/macroblockinfo.cpp
@@ -45,7 +36,7 @@ find_package( ZLIB REQUIRED )
 if ( ZLIB_FOUND )
     include_directories( ${ZLIB_INCLUDE_DIRS} )
     target_link_libraries( H264AnalysisTool ${ZLIB_LIBRARIES} )
-endif( ZLIB_FOUND )
+endif( ZLIB_FOUND ) 
 # winsock
 if(WIN32)
   target_link_libraries(H264AnalysisTool wsock32 ws2_32)
