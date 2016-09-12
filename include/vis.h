@@ -77,6 +77,6 @@ private:
 	// buffers and metadata
 	std::vector<std::vector<std::pair<cv::Mat, int> > > frames_;
 	std::vector<std::vector<std::pair<std::vector<MacroblockInfo>, int> > > mb_data_;
-	static const int max_buffer_size_ = 60;
+	static const int max_buffer_size_ = 3000;
 };
 #endif // _VIS_H_
