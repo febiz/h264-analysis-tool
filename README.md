@@ -52,3 +52,21 @@ Assuming your executable is in root/bin folder. Run the following command:
 
 You should see the first frame of the test sequence with all the features
 enabled.
+
+Key Commands:
+===========
+
+q - quit
+i - toggle frame info (index and type)
+f - toggle motion vectors
+m - toggle macroblock mode
+g - toggle macroblock grid
+p - toggle macroblock splits
+left-arrow - advance to next frame
+right-arrow - go back to previous frame
+
+
+Creating H264 Byte Streams:
+===========
+You can use gstreamer to demux .mp4 files and parse into .h264 streams
+> gst-launch-1.0 filesrc location=kitten.mp4 ! qtdemux ! h264parse ! video/x-h264,stream-format=byte-stream ! filesink location=kitten.h264
