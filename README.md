@@ -7,7 +7,7 @@ This project implements an extension to the H.264 JM reference decoder
 (http://iphome.hhi.de/suehring/tml) that allows to visually analyse a video.
 For a quick demo visit http://www.youtube.com/watch?v=j1_YCLDdKuY
 
-This project was cloned from github.com/febiz/h264-analysis-tool
+This project was cloned from https://github.com/febiz/h264-analysis-tool
 
 Features:
 ==========
