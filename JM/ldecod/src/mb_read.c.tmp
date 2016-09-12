@@ -1,0 +1,9 @@
+/*!
+ ***********************************************************************
+ * \file macroblock.c
+ *
+ * \brief
+ *     Decode a Macroblock
+ *
+ * \author
+ *    Main contributors (see contributors.h for copyright, address and affiliation details)

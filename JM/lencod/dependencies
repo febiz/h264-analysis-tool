@@ -1,0 +1,1483 @@
+obj/annexb.o: src/annexb.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h
+obj/biariencode.o: src/biariencode.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/biariencode.h
+obj/block.o: src/block.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/blk_prediction.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h ../lcommon/inc/memalloc.h inc/image.h \
+  ../lcommon/inc/mb_access.h inc/block.h inc/vlc.h \
+  ../lcommon/inc/transform.h inc/mc_prediction.h inc/q_offsets.h \
+  inc/q_matrix.h inc/quant4x4.h inc/quantChroma.h inc/md_common.h \
+  inc/mv_search.h inc/me_distortion.h inc/transform8x8.h
+obj/cabac.o: src/cabac.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/cabac.h inc/biariencode.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h
+obj/cconv_yuv2rgb.o: src/cconv_yuv2rgb.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/img_distortion.h
+obj/configfile.o: src/configfile.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/config_common.h inc/configfile.h inc/fmo.h \
+  inc/conformance.h inc/mc_prediction.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/mv_search.h \
+  ../lcommon/inc/img_io.h ../lcommon/inc/io_raw.h \
+  ../lcommon/inc/io_tiff.h inc/ratectl.h inc/rc_quadratic.h inc/sei.h
+obj/conformance.o: src/conformance.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/conformance.h
+obj/context_ini.o: src/context_ini.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/ctx_tables.h inc/biariencode.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h
+obj/errdo.o: src/errdo.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h ../lcommon/inc/memalloc.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/refbuf.h inc/image.h \
+  inc/md_common.h inc/mv_search.h inc/me_distortion.h inc/errdo.h \
+  inc/errdo_dist_mhyp.h
+obj/errdo_dist_mhyp.o: src/errdo_dist_mhyp.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/errdo.h \
+  inc/md_distortion.h inc/md_common.h inc/mv_search.h \
+  inc/me_distortion.h inc/lln_mc_prediction.h
+obj/explicit_gop.o: src/explicit_gop.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/explicit_gop.h inc/image.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h ../lcommon/inc/report.h
+obj/explicit_seq.o: src/explicit_seq.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/report.h ../lcommon/inc/enc_statistics.h \
+  inc/explicit_seq.h
+obj/filehandle.o: src/filehandle.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/enc_statistics.h inc/rtp.h inc/nalu.h inc/annexb.h \
+  inc/parset.h inc/sei.h inc/mbuffer.h
+obj/fmo.o: src/fmo.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/fmo.h
+obj/get_block_otf.o: src/get_block_otf.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/block.h inc/macroblock.h inc/macroblock_p444.h inc/image.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/get_block_otf.h inc/refbuf_otf.h
+obj/header.o: src/header.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/elements.h inc/header.h \
+  inc/rtp.h inc/nalu.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/vlc.h inc/parset.h inc/sei.h inc/list_reorder.h
+obj/hme_distortion.o: src/hme_distortion.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/memalloc.h ../lcommon/inc/mb_access.h inc/refbuf.h \
+  inc/mv_search.h inc/me_distortion.h inc/hme_distortion.h
+obj/hme_luma.o: src/hme_luma.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/img_luma.h inc/me_hme.h
+obj/image.o: src/image.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/filehandle.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/img_luma.h inc/img_chroma.h inc/img_distortion.h \
+  inc/intrarefresh.h inc/slice.h inc/rdopt_coding_state.h inc/fmo.h \
+  inc/sei.h ../lcommon/inc/memalloc.h ../lcommon/inc/fast_memory.h \
+  inc/nalu.h inc/ratectl.h inc/rc_quadratic.h ../lcommon/inc/mb_access.h \
+  inc/context_ini.h inc/biariencode.h inc/conformance.h \
+  ../lcommon/inc/report.h inc/q_matrix.h inc/q_offsets.h inc/wp.h \
+  inc/wp_lms.h inc/wp_mcprec.h inc/wp_mciter.h inc/wp_random.h \
+  inc/wp_periodic.h ../lcommon/inc/input.h inc/image.h inc/errdo.h \
+  ../lcommon/inc/img_process.h inc/rdopt.h inc/configfile.h \
+  ../lcommon/inc/config_common.h ../lcommon/inc/resize.h inc/md_common.h \
+  inc/mv_search.h inc/me_distortion.h inc/me_epzs_common.h inc/me_hme.h
+obj/image_mp.o: src/image_mp.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/rc_quadratic.h inc/wp.h inc/wp_lms.h inc/wp_mcprec.h \
+  inc/wp_mciter.h inc/wp_random.h inc/wp_periodic.h inc/pred_struct.h \
+  inc/explicit_seq.h inc/slice.h inc/rdopt_coding_state.h
+obj/img_chroma.o: src/img_chroma.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/img_chroma.h
+obj/img_dist_ms_ssim.o: src/img_dist_ms_ssim.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/img_distortion.h \
+  ../lcommon/inc/enc_statistics.h ../lcommon/inc/memalloc.h \
+  inc/mbuffer.h
+obj/img_dist_snr.o: src/img_dist_snr.c inc/contributors.h \
+  ../lcommon/inc/enc_statistics.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/img_distortion.h inc/md_distortion.h
+obj/img_dist_ssim.o: src/img_dist_ssim.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/img_distortion.h ../lcommon/inc/enc_statistics.h
+obj/img_distortion.o: src/img_distortion.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/refbuf.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/img_luma.h inc/img_chroma.h inc/intrarefresh.h inc/fmo.h inc/sei.h \
+  ../lcommon/inc/memalloc.h inc/nalu.h inc/ratectl.h inc/rc_quadratic.h \
+  ../lcommon/inc/mb_access.h inc/md_distortion.h inc/output.h \
+  inc/context_ini.h inc/conformance.h inc/q_matrix.h inc/q_offsets.h \
+  inc/quant4x4.h inc/quant8x8.h inc/wp.h inc/wp_lms.h inc/wp_mcprec.h \
+  inc/wp_mciter.h inc/wp_random.h inc/wp_periodic.h \
+  ../lcommon/inc/input.h inc/image.h inc/img_distortion.h \
+  inc/img_dist_snr.h inc/img_dist_ssim.h inc/img_dist_ms_ssim.h \
+  inc/cconv_yuv2rgb.h
+obj/img_luma.o: src/img_luma.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/img_luma.h ../lcommon/inc/memalloc.h
+obj/intra16x16.o: src/intra16x16.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h ../lcommon/inc/transform.h \
+  ../lcommon/inc/memalloc.h
+obj/intra4x4.o: src/intra4x4.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h
+obj/intra8x8.o: src/intra8x8.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/intra8x8.h
+obj/intra_chroma.o: src/intra_chroma.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/block.h inc/mv_search.h
+obj/intrarefresh.o: src/intrarefresh.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h
+obj/lambda.o: src/lambda.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/slice.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/rdopt_coding_state.h
+obj/leaky_bucket.o: src/leaky_bucket.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h
+obj/lencod.o: src/lencod.c inc/contributors.h ../lcommon/inc/win32.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/cconv_yuv2rgb.h inc/img_distortion.h inc/configfile.h inc/fmo.h \
+  ../lcommon/inc/config_common.h inc/conformance.h inc/context_ini.h \
+  inc/explicit_gop.h inc/explicit_seq.h inc/filehandle.h inc/image.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h ../lcommon/inc/input.h \
+  ../lcommon/inc/img_io.h ../lcommon/inc/io_raw.h \
+  ../lcommon/inc/io_tiff.h inc/slice.h inc/rdopt_coding_state.h \
+  inc/intrarefresh.h inc/leaky_bucket.h inc/mc_prediction.h \
+  inc/mc_prediction_otf.h ../lcommon/inc/memalloc.h inc/me_epzs_common.h \
+  inc/me_epzs_int.h inc/me_epzs.h inc/me_umhex.h inc/me_umhexsmp.h \
+  inc/me_hme.h inc/output.h inc/parset.h inc/nalu.h inc/sei.h \
+  inc/q_matrix.h inc/q_offsets.h inc/ratectl.h inc/rc_quadratic.h \
+  ../lcommon/inc/report.h inc/rdoq.h inc/errdo.h inc/rdopt.h \
+  inc/wp_mcprec.h inc/mv_search.h ../lcommon/inc/img_process.h \
+  inc/pred_struct.h ../lcommon/inc/blk_prediction.h inc/img_luma.h \
+  inc/img_chroma.h inc/me_distortion.h inc/me_distortion_otf.h \
+  inc/md_distortion.h inc/mode_decision.h inc/transform8x8.h \
+  inc/intra16x16.h inc/intra4x4.h inc/intra8x8.h inc/md_common.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/get_block_otf.h \
+  inc/wp.h inc/wp_lms.h inc/wp_mciter.h inc/wp_random.h \
+  inc/wp_periodic.h
+obj/list_reorder.o: src/list_reorder.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/wp.h \
+  inc/wp_lms.h inc/wp_mcprec.h inc/wp_mciter.h inc/wp_random.h \
+  inc/wp_periodic.h inc/list_reorder.h inc/me_hme.h
+obj/lln_mc_prediction.o: src/lln_mc_prediction.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/macroblock.h inc/block.h \
+  inc/macroblock_p444.h inc/errdo.h inc/lln_mc_prediction.h
+obj/loopFilter.o: src/loopFilter.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/loop_filter.h
+obj/loop_filter_mbaff.o: src/loop_filter_mbaff.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/loop_filter.h
+obj/loop_filter_normal.o: src/loop_filter_normal.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/loop_filter.h
+obj/macroblock.o: src/macroblock.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/enc_statistics.h inc/block.h inc/elements.h \
+  inc/macroblock.h inc/macroblock_p444.h ../lcommon/inc/memalloc.h \
+  inc/mbuffer.h ../lcommon/inc/blk_prediction.h inc/mc_prediction.h \
+  inc/fmo.h inc/vlc.h inc/image.h ../lcommon/inc/mb_access.h \
+  inc/ratectl.h inc/rc_quadratic.h inc/cabac.h inc/biariencode.h \
+  inc/me_fullsearch.h inc/me_fullfast.h inc/symbol.h inc/conformance.h \
+  inc/md_common.h inc/mv_search.h inc/me_distortion.h \
+  ../lcommon/inc/mv_prediction.h inc/rdopt.h inc/rdopt_coding_state.h \
+  ../lcommon/inc/transform.h
+obj/macroblock_P444.o: src/macroblock_P444.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/blk_prediction.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/mc_prediction.h inc/md_common.h \
+  inc/mv_search.h inc/me_distortion.h inc/rdopt.h \
+  inc/rdopt_coding_state.h inc/macroblock.h inc/block.h \
+  inc/macroblock_p444.h
+obj/mb_access.o: src/mb_access.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/mb_access.h
+obj/mbuffer.o: src/mbuffer.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mbuffer_common.h ../lcommon/inc/memalloc.h inc/output.h \
+  inc/image.h inc/img_luma.h inc/img_chroma.h inc/errdo.h inc/me_hme.h
+obj/mc_prediction.o: src/mc_prediction.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/block.h inc/macroblock.h inc/macroblock_p444.h inc/mc_prediction.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/refbuf.h inc/image.h \
+  ../lcommon/inc/mb_access.h inc/me_distortion.h
+obj/mc_prediction_otf.o: src/mc_prediction_otf.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/block.h inc/macroblock.h \
+  inc/macroblock_p444.h inc/mc_prediction.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/mc_prediction_otf.h inc/refbuf.h \
+  inc/image.h ../lcommon/inc/mb_access.h inc/me_distortion.h \
+  inc/get_block_otf.h
+obj/md_common.o: src/md_common.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/mc_prediction.h
+obj/md_distortion.o: src/md_distortion.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/rdopt_coding_state.h ../lcommon/inc/mb_access.h inc/intrarefresh.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/transform8x8.h inc/ratectl.h inc/rc_quadratic.h \
+  inc/mode_decision.h inc/fmo.h inc/me_umhex.h inc/me_umhexsmp.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/mv_search.h \
+  inc/md_distortion.h
+obj/md_high.o: src/md_high.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/rdopt_coding_state.h inc/intrarefresh.h inc/image.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/ratectl.h inc/rc_quadratic.h \
+  inc/mode_decision.h inc/mode_decision_p8x8.h inc/fmo.h inc/me_umhex.h \
+  inc/me_umhexsmp.h inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  inc/md_common.h inc/mv_search.h inc/me_distortion.h inc/conformance.h \
+  inc/vlc.h inc/rdopt.h
+obj/md_high_updated.o: src/md_high_updated.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/rdopt_coding_state.h inc/intrarefresh.h inc/image.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/ratectl.h inc/rc_quadratic.h \
+  inc/mode_decision.h inc/mode_decision_p8x8.h inc/fmo.h inc/me_umhex.h \
+  inc/me_umhexsmp.h inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  inc/md_common.h inc/mv_search.h inc/me_distortion.h inc/conformance.h \
+  inc/vlc.h inc/rdopt.h
+obj/md_highfast.o: src/md_highfast.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/rdopt_coding_state.h ../lcommon/inc/mb_access.h inc/intrarefresh.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/ratectl.h inc/rc_quadratic.h inc/mode_decision.h \
+  inc/mode_decision_p8x8.h inc/fmo.h inc/me_umhex.h inc/me_umhexsmp.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/md_common.h \
+  inc/mv_search.h inc/me_distortion.h inc/conformance.h inc/vlc.h \
+  inc/rdopt.h
+obj/md_highloss.o: src/md_highloss.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/rdopt_coding_state.h inc/intrarefresh.h inc/image.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/ratectl.h inc/rc_quadratic.h \
+  inc/mode_decision.h inc/mode_decision_p8x8.h inc/fmo.h inc/me_umhex.h \
+  inc/me_umhexsmp.h inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  inc/md_common.h inc/mv_search.h inc/me_distortion.h inc/conformance.h \
+  inc/vlc.h inc/rdopt.h
+obj/md_low.o: src/md_low.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/rdopt_coding_state.h \
+  ../lcommon/inc/mb_access.h inc/intrarefresh.h inc/image.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/transform8x8.h \
+  inc/ratectl.h inc/rc_quadratic.h inc/mode_decision.h \
+  inc/mode_decision_p8x8.h inc/fmo.h inc/me_umhex.h inc/me_umhexsmp.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/q_around.h \
+  inc/vlc.h inc/md_common.h inc/mv_search.h inc/me_distortion.h \
+  inc/rdopt.h ../lcommon/inc/memalloc.h inc/mc_prediction.h \
+  inc/rd_intra_jm.h
+obj/me_distortion.o: src/me_distortion.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/memalloc.h ../lcommon/inc/mb_access.h inc/refbuf.h \
+  inc/mv_search.h inc/me_distortion.h
+obj/me_distortion_otf.o: src/me_distortion_otf.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/image.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h ../lcommon/inc/memalloc.h \
+  ../lcommon/inc/mb_access.h inc/mv_search.h inc/me_distortion.h \
+  inc/me_distortion_otf.h inc/get_block_otf.h inc/refbuf_otf.h
+obj/me_epzs.o: src/me_epzs.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/memalloc.h ../lcommon/inc/mb_access.h inc/refbuf.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/me_distortion.h \
+  inc/me_epzs.h inc/me_epzs_common.h inc/mv_search.h
+obj/me_epzs_common.o: src/me_epzs_common.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/memalloc.h ../lcommon/inc/mb_access.h inc/refbuf.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/me_distortion.h \
+  inc/me_epzs.h inc/me_epzs_common.h inc/me_hme.h inc/me_epzs_int.h \
+  inc/me_fullsearch.h inc/mv_search.h
+obj/me_epzs_int.o: src/me_epzs_int.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/memalloc.h ../lcommon/inc/mb_access.h inc/refbuf.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/me_distortion.h \
+  inc/me_epzs.h inc/me_epzs_common.h inc/mv_search.h
+obj/me_epzs_sub.o: src/me_epzs_sub.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/refbuf.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/me_epzs.h inc/me_epzs_common.h inc/mv_search.h
+obj/me_fullfast.o: src/me_fullfast.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/memalloc.h ../lcommon/inc/mb_access.h inc/refbuf.h \
+  inc/me_distortion.h inc/me_fullsearch.h inc/me_fullfast.h \
+  inc/conformance.h inc/mv_search.h
+obj/me_fullfast_otf.o: src/me_fullfast_otf.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/memalloc.h ../lcommon/inc/mb_access.h \
+  inc/me_distortion.h inc/get_block_otf.h inc/me_fullsearch.h \
+  inc/me_fullfast.h inc/me_fullfast_otf.h inc/conformance.h \
+  inc/mv_search.h
+obj/me_fullsearch.o: src/me_fullsearch.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/memalloc.h ../lcommon/inc/mb_access.h inc/refbuf.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/me_distortion.h \
+  inc/me_fullsearch.h inc/mv_search.h
+obj/me_hme.o: src/me_hme.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/memalloc.h ../lcommon/inc/mb_access.h inc/refbuf.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/me_distortion.h \
+  inc/me_epzs.h inc/me_epzs_common.h inc/mv_search.h inc/me_hme.h \
+  inc/hme_distortion.h ../lcommon/inc/resize.h inc/wp.h inc/wp_lms.h \
+  inc/wp_mcprec.h inc/wp_mciter.h inc/wp_random.h inc/wp_periodic.h \
+  inc/slice.h inc/rdopt_coding_state.h inc/list_reorder.h
+obj/me_umhex.o: src/me_umhex.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/me_umhex.h inc/refbuf.h \
+  ../lcommon/inc/mb_access.h inc/image.h inc/macroblock.h inc/block.h \
+  inc/macroblock_p444.h inc/me_distortion.h inc/mv_search.h \
+  inc/me_fullsearch.h
+obj/me_umhexsmp.o: src/me_umhexsmp.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/me_umhexsmp.h inc/refbuf.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/me_distortion.h \
+  inc/mv_search.h
+obj/mmco.o: src/mmco.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/report.h
+obj/mode_decision.o: src/mode_decision.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/ratectl.h inc/rc_quadratic.h inc/mode_decision.h inc/md_common.h \
+  inc/mv_search.h inc/me_distortion.h inc/me_umhex.h inc/me_umhexsmp.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/rdoq.h \
+  inc/q_around.h inc/slice.h inc/rdopt_coding_state.h inc/conformance.h \
+  inc/rdopt.h
+obj/mode_decision_P8x8.o: src/mode_decision_P8x8.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/mode_decision.h inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  inc/errdo.h inc/q_around.h inc/md_common.h inc/mv_search.h \
+  inc/me_distortion.h inc/rdopt.h inc/rdopt_coding_state.h
+obj/mv_direct.o: src/mv_direct.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/mv_search.h inc/refbuf.h ../lcommon/inc/memalloc.h \
+  ../lcommon/inc/mb_access.h inc/macroblock.h inc/block.h \
+  inc/macroblock_p444.h inc/mc_prediction.h inc/conformance.h \
+  inc/mode_decision.h
+obj/mv_search.o: src/mv_search.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/mv_search.h inc/refbuf.h ../lcommon/inc/memalloc.h \
+  ../lcommon/inc/mb_access.h inc/macroblock.h inc/block.h \
+  inc/macroblock_p444.h inc/mc_prediction.h inc/conformance.h \
+  inc/mode_decision.h inc/me_distortion.h inc/me_distortion_otf.h \
+  inc/me_epzs.h inc/me_epzs_common.h inc/me_epzs_int.h inc/me_fullfast.h \
+  inc/me_fullfast_otf.h inc/me_fullsearch.h inc/me_umhex.h \
+  inc/me_umhexsmp.h inc/rdoq.h
+obj/nal.o: src/nal.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/enc_statistics.h inc/biariencode.h inc/nal.h
+obj/nalu.o: src/nalu.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/nalu.h inc/nal.h \
+  ../lcommon/inc/enc_statistics.h
+obj/output.o: src/output.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/input.h inc/output.h
+obj/parset.o: src/parset.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/contributors.h inc/nal.h \
+  ../lcommon/inc/enc_statistics.h inc/mbuffer.h inc/parset.h inc/nalu.h \
+  inc/sei.h inc/vlc.h inc/q_matrix.h
+obj/pred_struct.o: src/pred_struct.c inc/pred_struct.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/explicit_seq.h
+obj/q_around.o: src/q_around.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/q_offsets.h inc/q_around.h
+obj/q_matrix.o: src/q_matrix.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/q_matrix.h
+obj/q_offsets.o: src/q_offsets.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/q_matrix.h inc/q_offsets.h
+obj/quant4x4.o: src/quant4x4.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/quant4x4.h
+obj/quant4x4_2step.o: src/quant4x4_2step.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/vlc.h ../lcommon/inc/transform.h \
+  inc/mc_prediction.h inc/q_offsets.h inc/q_matrix.h inc/quant4x4.h
+obj/quant4x4_around.o: src/quant4x4_around.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/vlc.h ../lcommon/inc/transform.h \
+  inc/mc_prediction.h inc/q_offsets.h inc/q_matrix.h inc/quant4x4.h
+obj/quant4x4_normal.o: src/quant4x4_normal.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/vlc.h ../lcommon/inc/transform.h \
+  inc/mc_prediction.h inc/q_offsets.h inc/q_matrix.h inc/quant4x4.h
+obj/quant4x4_trellis.o: src/quant4x4_trellis.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/image.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h ../lcommon/inc/mb_access.h inc/vlc.h \
+  ../lcommon/inc/transform.h inc/mc_prediction.h inc/q_offsets.h \
+  inc/q_matrix.h inc/quant4x4.h inc/rdoq.h
+obj/quant8x8.o: src/quant8x8.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/quant8x8.h
+obj/quant8x8_around.o: src/quant8x8_around.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/vlc.h ../lcommon/inc/transform.h \
+  inc/mc_prediction.h inc/q_offsets.h inc/q_matrix.h inc/quant8x8.h
+obj/quant8x8_normal.o: src/quant8x8_normal.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/vlc.h ../lcommon/inc/transform.h \
+  inc/mc_prediction.h inc/q_offsets.h inc/q_matrix.h inc/quant8x8.h
+obj/quant8x8_trellis.o: src/quant8x8_trellis.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/image.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h ../lcommon/inc/mb_access.h inc/vlc.h \
+  ../lcommon/inc/transform.h inc/mc_prediction.h inc/q_offsets.h \
+  inc/q_matrix.h inc/quant8x8.h inc/rdoq.h
+obj/quantChroma.o: src/quantChroma.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/quant4x4.h inc/quantChroma.h
+obj/quantChroma_2step.o: src/quantChroma_2step.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/q_matrix.h inc/quant4x4.h \
+  inc/quantChroma.h
+obj/quantChroma_around.o: src/quantChroma_around.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/q_matrix.h inc/quant4x4.h \
+  inc/quantChroma.h
+obj/quantChroma_normal.o: src/quantChroma_normal.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/q_matrix.h inc/quant4x4.h \
+  inc/quantChroma.h
+obj/quantChroma_trellis.o: src/quantChroma_trellis.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/q_matrix.h inc/quant4x4.h \
+  inc/quantChroma.h inc/rdoq.h
+obj/ratectl.o: src/ratectl.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/ratectl.h inc/rc_quadratic.h
+obj/rc_quadratic.o: src/rc_quadratic.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/ratectl.h inc/rc_quadratic.h
+obj/rd_intra_jm.o: src/rd_intra_jm.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  ../lcommon/inc/mb_access.h inc/rdopt_coding_state.h \
+  inc/mode_decision.h inc/rdopt.h inc/rd_intra_jm.h inc/q_around.h \
+  inc/intra4x4.h inc/intra8x8.h inc/md_common.h inc/mv_search.h \
+  inc/me_distortion.h inc/transform8x8.h inc/md_distortion.h \
+  inc/elements.h inc/symbol.h inc/intra16x16.h
+obj/rd_intra_jm444.o: src/rd_intra_jm444.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  ../lcommon/inc/mb_access.h inc/rdopt_coding_state.h \
+  inc/mode_decision.h inc/rdopt.h inc/rd_intra_jm.h inc/q_around.h \
+  inc/intra4x4.h ../lcommon/inc/blk_prediction.h
+obj/rd_intra_jm_low.o: src/rd_intra_jm_low.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  ../lcommon/inc/mb_access.h inc/rdopt_coding_state.h \
+  inc/mode_decision.h inc/rdopt.h inc/rd_intra_jm.h inc/q_around.h \
+  inc/intra4x4.h inc/intra8x8.h
+obj/rdopt.o: src/rdopt.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/rdopt.h \
+  inc/rdopt_coding_state.h inc/q_around.h ../lcommon/inc/memalloc.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/elements.h inc/intrarefresh.h \
+  inc/image.h inc/transform8x8.h inc/cabac.h inc/biariencode.h \
+  inc/slice.h inc/vlc.h inc/ratectl.h inc/rc_quadratic.h \
+  inc/mode_decision.h inc/rd_intra_jm.h inc/rd_intra_jm444.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/q_offsets.h \
+  inc/conformance.h inc/errdo.h inc/mv_search.h inc/md_common.h \
+  inc/me_distortion.h inc/md_distortion.h inc/intra16x16.h
+obj/rdopt_coding_state.o: src/rdopt_coding_state.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/rdopt_coding_state.h inc/cabac.h ../lcommon/inc/memalloc.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h
+obj/rdoq.o: src/rdoq.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/fmo.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  ../lcommon/inc/mb_access.h inc/rdopt.h inc/rdopt_coding_state.h \
+  inc/rdoq.h inc/mv_search.h
+obj/rdoq_cabac.o: src/rdoq_cabac.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/cabac.h inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/fmo.h inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  ../lcommon/inc/mb_access.h inc/rdoq.h
+obj/rdoq_cavlc.o: src/rdoq_cavlc.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/fmo.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h \
+  ../lcommon/inc/mb_access.h inc/rdoq.h
+obj/rdpicdecision.o: src/rdpicdecision.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h
+obj/report.o: src/report.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/context_ini.h inc/explicit_gop.h inc/filehandle.h inc/fmo.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/intrarefresh.h inc/leaky_bucket.h inc/me_epzs.h \
+  inc/me_epzs_common.h inc/me_epzs_int.h inc/output.h inc/parset.h \
+  inc/nalu.h inc/sei.h ../lcommon/inc/report.h \
+  ../lcommon/inc/img_process_types.h
+obj/rtp.o: src/rtp.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/rtp.h inc/nalu.h inc/sei.h
+obj/sei.o: src/sei.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h ../lcommon/inc/memalloc.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/rtp.h inc/nalu.h \
+  inc/sei.h inc/vlc.h inc/header.h
+obj/slice.o: src/slice.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/header.h inc/nal.h ../lcommon/inc/enc_statistics.h inc/rtp.h \
+  inc/nalu.h inc/fmo.h inc/vlc.h inc/image.h inc/mbuffer.h inc/cabac.h \
+  inc/biariencode.h inc/elements.h inc/macroblock.h inc/block.h \
+  inc/macroblock_p444.h ../lcommon/inc/memalloc.h \
+  inc/mode_decision_p8x8.h inc/symbol.h inc/context_ini.h inc/ratectl.h \
+  inc/rc_quadratic.h inc/me_epzs.h inc/me_epzs_common.h \
+  inc/me_epzs_int.h inc/wp.h inc/wp_lms.h inc/wp_mcprec.h \
+  inc/wp_mciter.h inc/wp_random.h inc/wp_periodic.h inc/slice.h \
+  inc/rdopt_coding_state.h inc/rdoq.h inc/q_offsets.h inc/conformance.h \
+  inc/list_reorder.h inc/md_common.h inc/mv_search.h inc/me_distortion.h \
+  inc/mmco.h inc/quant4x4.h inc/quant8x8.h inc/quantChroma.h inc/rdopt.h \
+  inc/lambda.h inc/intra4x4.h inc/intra8x8.h inc/intra16x16.h \
+  inc/mc_prediction.h inc/rd_intra_jm.h inc/rd_intra_jm444.h
+obj/symbol.o: src/symbol.c inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/symbol.h
+obj/transform8x8.o: src/transform8x8.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h ../lcommon/inc/blk_prediction.h \
+  inc/elements.h inc/vlc.h inc/transform8x8.h ../lcommon/inc/transform.h \
+  inc/macroblock.h inc/block.h inc/macroblock_p444.h inc/symbol.h \
+  inc/mc_prediction.h inc/md_distortion.h inc/quant8x8.h inc/rdoq.h \
+  inc/q_matrix.h inc/q_offsets.h inc/rdopt.h inc/rdopt_coding_state.h \
+  inc/md_common.h inc/mv_search.h inc/me_distortion.h inc/intra8x8.h
+obj/transform8x8_H444.o: src/transform8x8_H444.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mb_access.h inc/elements.h inc/vlc.h inc/transform8x8.h \
+  ../lcommon/inc/transform.h inc/macroblock.h inc/block.h \
+  inc/macroblock_p444.h inc/symbol.h inc/mc_prediction.h inc/quant8x8.h \
+  inc/rdoq.h inc/q_matrix.h inc/q_offsets.h inc/rdopt.h \
+  inc/rdopt_coding_state.h inc/md_common.h inc/mv_search.h \
+  inc/me_distortion.h inc/intra8x8.h ../lcommon/inc/blk_prediction.h
+obj/vlc.o: src/vlc.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/enc_statistics.h inc/vlc.h
+obj/weighted_prediction.o: src/weighted_prediction.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/image.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/wp.h inc/wp_lms.h inc/wp_mcprec.h \
+  inc/wp_mciter.h inc/wp_random.h inc/wp_periodic.h
+obj/wp_lms.o: src/wp_lms.c inc/contributors.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/wp_lms.h \
+  inc/wp.h inc/wp_mcprec.h inc/wp_mciter.h inc/wp_random.h \
+  inc/wp_periodic.h
+obj/wp_mciter.o: src/wp_mciter.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/wp.h \
+  inc/wp_lms.h inc/wp_mcprec.h inc/wp_mciter.h inc/wp_random.h \
+  inc/wp_periodic.h
+obj/wp_mcprec.o: src/wp_mcprec.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h inc/slice.h \
+  inc/rdopt_coding_state.h inc/list_reorder.h inc/wp_mcprec.h \
+  ../lcommon/inc/memalloc.h
+obj/wp_periodic.o: src/wp_periodic.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/wp_periodic.h inc/wp.h inc/wp_lms.h inc/wp_mcprec.h \
+  inc/wp_mciter.h inc/wp_random.h
+obj/wp_random.o: src/wp_random.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  inc/wp_random.h inc/wp.h inc/wp_lms.h inc/wp_mcprec.h inc/wp_mciter.h \
+  inc/wp_periodic.h
+obj/blk_prediction.o: ../lcommon/src/blk_prediction.c inc/contributors.h \
+  inc/block.h inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h inc/macroblock.h \
+  inc/macroblock_p444.h inc/mc_prediction.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h inc/image.h ../lcommon/inc/mb_access.h
+obj/config_common.o: ../lcommon/src/config_common.c inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/configfile.h inc/fmo.h ../lcommon/inc/config_common.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h
+obj/img_io.o: ../lcommon/src/img_io.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/img_io.h ../lcommon/inc/io_raw.h \
+  ../lcommon/inc/io_tiff.h ../lcommon/inc/report.h \
+  ../lcommon/inc/enc_statistics.h
+obj/img_process.o: ../lcommon/src/img_process.c inc/contributors.h \
+  inc/global.h inc/defines.h ../lcommon/inc/types.h \
+  ../lcommon/inc/win32.h ../lcommon/inc/typedefs.h \
+  ../lcommon/inc/parsetcommon.h ../lcommon/inc/ifunctions.h \
+  ../lcommon/inc/frame.h ../lcommon/inc/io_video.h \
+  ../lcommon/inc/io_image.h ../lcommon/inc/nalucommon.h inc/params.h \
+  ../lcommon/inc/vui_params.h ../lcommon/inc/distortion.h \
+  ../lcommon/inc/lagrangian.h ../lcommon/inc/quant_params.h \
+  inc/rc_types.h inc/pred_struct_types.h ../lcommon/inc/img_process.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h ../lcommon/inc/fast_memory.h
+obj/input.o: ../lcommon/src/input.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/input.h ../lcommon/inc/img_io.h ../lcommon/inc/io_raw.h \
+  ../lcommon/inc/io_tiff.h ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h ../lcommon/inc/fast_memory.h
+obj/io_raw.o: ../lcommon/src/io_raw.c inc/contributors.h inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/img_io.h ../lcommon/inc/io_raw.h \
+  ../lcommon/inc/io_tiff.h
+obj/io_tiff.o: ../lcommon/src/io_tiff.c inc/contributors.h \
+  ../lcommon/inc/report.h inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/enc_statistics.h ../lcommon/inc/io_tiff.h
+obj/mbuffer_common.o: ../lcommon/src/mbuffer_common.c inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/header.h inc/image.h inc/mbuffer.h ../lcommon/inc/enc_statistics.h \
+  ../lcommon/inc/mbuffer_common.h ../lcommon/inc/memalloc.h inc/output.h \
+  ../lcommon/inc/fast_memory.h ../lcommon/inc/input.h
+obj/memalloc.o: ../lcommon/src/memalloc.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h
+obj/mv_prediction.o: ../lcommon/src/mv_prediction.c inc/global.h \
+  inc/defines.h ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  inc/mbuffer.h ../lcommon/inc/enc_statistics.h
+obj/nalucommon.o: ../lcommon/src/nalucommon.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h
+obj/parsetcommon.o: ../lcommon/src/parsetcommon.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/memalloc.h inc/mbuffer.h \
+  ../lcommon/inc/enc_statistics.h
+obj/resize.o: ../lcommon/src/resize.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/resize.h
+obj/transform.o: ../lcommon/src/transform.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h \
+  ../lcommon/inc/transform.h
+obj/win32.o: ../lcommon/src/win32.c inc/global.h inc/defines.h \
+  ../lcommon/inc/types.h ../lcommon/inc/win32.h \
+  ../lcommon/inc/typedefs.h ../lcommon/inc/parsetcommon.h \
+  ../lcommon/inc/ifunctions.h ../lcommon/inc/frame.h \
+  ../lcommon/inc/io_video.h ../lcommon/inc/io_image.h \
+  ../lcommon/inc/nalucommon.h inc/params.h ../lcommon/inc/vui_params.h \
+  ../lcommon/inc/distortion.h ../lcommon/inc/lagrangian.h \
+  ../lcommon/inc/quant_params.h inc/rc_types.h inc/pred_struct_types.h

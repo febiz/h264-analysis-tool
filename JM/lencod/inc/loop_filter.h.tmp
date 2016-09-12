@@ -1,0 +1,32 @@
+/*!
+ ***************************************************************************
+ * \file
+ *    loop_filter.h
+ *
+ * \date
+ *    25 April 2010
+ *
+ * \brief
+ *    Headerfile for loopfilter processing
+ * \author
+ *    Main contributors (see contributors.h for copyright, address and affiliation details)
+ *     - Alexis Michael Tourapis         <alexismt@ieee.org> 
+
+ **************************************************************************
+ */
+
+#ifndef _LOOP_FILTER_H_
+#define _LOOP_FILTER_H_
+
+#include "global.h"
+
+#define GROUP_SIZE  1
+
+/*********************************************************************************************************/
+
+// NOTE: In principle, the alpha and beta tables are calculated with the formulas below
+//       Alpha( qp ) = 0.8 * (2^(qp/6)  -  1)
+//       Beta ( qp ) = 0.5 * qp  -  7
+
+// The tables actually used have been "hand optimized" though (by Anthony Joch). So, the
+// table values might be a little different to formula-generated values. Also, the first

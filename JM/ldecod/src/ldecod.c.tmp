@@ -1,0 +1,30 @@
+
+/*!
+ ***********************************************************************
+ *  \mainpage
+ *     This is the H.264/AVC decoder reference software. For detailed documentation
+ *     see the comments in each file.
+ *
+ *     The JM software web site is located at:
+ *     http://iphome.hhi.de/suehring/tml
+ *
+ *     For bug reporting and known issues see:
+ *     https://ipbt.hhi.fraunhofer.de
+ *
+ *  \author
+ *     The main contributors are listed in contributors.h
+ *
+ *  \version
+ *     JM 18.4 (FRExt)
+ *
+ *  \note
+ *     tags are used for document system "doxygen"
+ *     available at http://www.doxygen.org
+ */
+/*!
+ *  \file
+ *     ldecod.c
+ *  \brief
+ *     H.264/AVC reference decoder project main()
+ *  \author
+ *     Main contributors (see contributors.h for copyright, address and affiliation details)
