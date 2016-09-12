@@ -15,8 +15,8 @@ set( NAME_HEADERS
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin/)
 
 # Include directories
-include_directories ("${JM_DIR}/ldecod/inc")
-include_directories ("${JM_DIR}/lcommon/inc")
+include_directories ("JM/ldecod/inc")
+include_directories ("JM/lcommon/inc")
 include_directories ("${PROJECT_SOURCE_DIR}/include")
 
 add_executable( H264AnalysisTool ${NAME_SRC} ${NAME_HEADERS} )
