@@ -141,4 +141,9 @@ set( JM_NAME_SRC
 	${JM_DIR}/lcommon/src/win32.c
 )
 
+set(STD_LIB_FLAG -stdlib=libc++)
 add_library(JM STATIC ${JM_NAME_SRC} ${JM_NAME_HEADERS})
+target_compile_options(
+    JM PRIVATE
+    "-stdlib=libc++"
+)

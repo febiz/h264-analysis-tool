@@ -21,10 +21,6 @@ include_directories ("${PROJECT_SOURCE_DIR}/include")
 
 add_executable( H264AnalysisTool ${NAME_SRC} ${NAME_HEADERS} )
 
-# Link libraries
-# JM
-add_subdirectory (JM)
-target_link_libraries( H264AnalysisTool JM )
 # OpenCV
 find_package( OpenCV REQUIRED )
 if (OpenCV_FOUND)
@@ -41,4 +37,9 @@ endif( ZLIB_FOUND )
 if(WIN32)
   target_link_libraries(H264AnalysisTool wsock32 ws2_32)
 endif()
+
+# Link libraries
+# JM
+add_subdirectory (JM)
+target_link_libraries( H264AnalysisTool JM )
 
