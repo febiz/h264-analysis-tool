@@ -3,10 +3,11 @@
 // StdLib
 #include <vector>
 #include <utility>
-// CV
-#include "opencv2/core/core.hpp"
 // H264 AT
 #include "macroblockinfo.h"
+// CV
+#undef tell
+#include "opencv2/core/core.hpp"
 
 // JM forward declarations
 struct  storable_picture;
