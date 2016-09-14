@@ -11,6 +11,17 @@
 // JM
 #include "mbuffer.h"
 
+
+// TODO(matt): figure out a robust way to get arrow keys
+// Lenovo laptop
+#define LEFT_ARROW_CODE 65361
+#define RIGHT_ARROW_CODE 65363
+
+// iMac
+// #define RIGHT_ARROW_CODE 63235
+// #define LEFT_ARROW_CODE 63234
+
+
 bool Vis::play(bool dec) {
     cv::Mat frame;
     std::vector<MacroblockInfo>* mb_data;
@@ -33,7 +44,9 @@ bool Vis::play(bool dec) {
         cv::namedWindow("H.264", 1);
         cv::setMouseCallback("H.264", mouse_callback, this);
         while (true) {
-            cv::Mat processed_frame = frame.clone();
+            cv::Mat processed_frame;
+            // TODO(matt): some videos have reversed R and B on mac and linux
+            cv::cvtColor(frame, processed_frame, CV_RGB2BGR);
             process_frame(processed_frame);
             cv::imshow("H.264", processed_frame);
             int key = cv::waitKey(10);
@@ -43,7 +56,7 @@ bool Vis::play(bool dec) {
             // if key event disable mb_info
             enabled_mb_info_ = key > 0 ? false : enabled_mb_info_;
 
-            if (key == 63235) { // TODO: hacky
+            if (key == RIGHT_ARROW_CODE) {
                 // Detected right arrow: advance a frame.
                 std::vector<MacroblockInfo>* mb_data;
                 if (dec || get_mb_data(pos_+1, mb_data)) {
@@ -55,7 +68,7 @@ bool Vis::play(bool dec) {
                 } else {
                     // frame not available, need to fetch
                 }
-            } else if (key == 63234) { // TODO: hacky
+            } else if (key == LEFT_ARROW_CODE) {
                 // Detected left arrow: go back a frame.
                 if (pos_ > 0) {
                     if (get_frame(pos_-1, frame)) {
@@ -638,7 +651,9 @@ void Vis::deserialize(int pos) {
         std::stringstream fss;
         fss << "frame_" << std::setw(6) << std::setfill('0') << pos << "_"
             << std::setw(2) << std::setfill('0') << v << ".png";
-        frames_[v][pos].first = cv::imread(fss.str());
+        cv::Mat raw_input = cv::imread(fss.str());
+        std::cout << "loading " << fss.str() << "\n";
+        cv::cvtColor(raw_input, frames_[v][pos].first, CV_RGB2BGR);
     }
     const int num_views = mb_data_.size();
     const int mbi_count = frames_[0][pos].first.rows*frames_[0][pos].first.cols/BLOCK_PIXELS/BLOCK_PIXELS;

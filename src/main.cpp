@@ -1,23 +1,9 @@
-
-/*!
-***********************************************************************
-*  \file
-*     decoder_test.c
-*  \brief
-*     H.264/AVC decoder test 
-*  \author
-*     Main contributors (see contributors.h for copyright, address and affiliation details)
-*     - Yuwen He       <yhe@dolby.com>
-***********************************************************************
-*/
-
-#include "contributors.h"
 #include <sys/stat.h>
-extern "C" {
+ extern "C" {
 #include "win32.h"
 #include "h264decoder.h"
 #include "configfile.h"
-};
+ };
 // H264 AT
 #include "vis.h"
 #include "mbuffer.h"
@@ -232,7 +218,7 @@ int main(int argc, char **argv)
 	fprintf(stdout, "Decoder output view1: %s\n", DECOUTPUT_VIEW1_FILENAME);
 #endif
 
-	init_time();
+	// init_time();  // TODO(matt): what is this for?
 
 	//get input parameters;
 	Configure(&InputParams, argc, argv);
