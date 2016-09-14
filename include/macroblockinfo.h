@@ -1,6 +1,7 @@
 #ifndef _MACROBLOCKINFO_H_
 #define _MACROBLOCKINFO_H_
 // StdLib
+#include <inttypes.h>
 #include <vector>
 // NOTE: we could use MotionVector but it includes defines.h where
 // ColorComponent is defined, thus leading to LNK2005 already defined
