@@ -97,7 +97,7 @@ void init_frext(VideoParameters *p_Vid);
  *    Exit code
  ************************************************************************
  */
-void error(char *text, int code)
+void error(const char *text, int code)
 {
   fprintf(stderr, "%s\n", text);
   if (p_Dec)

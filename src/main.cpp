@@ -104,7 +104,7 @@ static int WriteOneFrame(DecodedPicList *pDecPic, int hFileOutput0, int hFileOut
 					res = write(hFileOutput, pbBuf+i*iStride, iWidth);
 					if (-1==res)
 					{
-						error ("error writing to output file.", 600);
+						 error ("error writing to output file.", 600);
 					}
 				}
 
@@ -242,7 +242,7 @@ int main(int argc, char **argv)
 		iRet = DecodeOneFrame(&pDecPicList);
 
 		// EXT --------------------------------------------------------------------
-		if (iFramesDecoded > 1) { // decode at least 2 frames
+		if (iFramesDecoded > 151) { // decode at least 2 frames
 			quit = visualizer.play(true);
 			if (quit)
 				break;

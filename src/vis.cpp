@@ -44,9 +44,9 @@ bool Vis::play(bool dec) {
         cv::namedWindow("H.264", 1);
         cv::setMouseCallback("H.264", mouse_callback, this);
         while (true) {
-            cv::Mat processed_frame;
+            cv::Mat processed_frame = frame.clone();
             // TODO(matt): some videos have reversed R and B on mac and linux
-            cv::cvtColor(frame, processed_frame, CV_RGB2BGR);
+            // cv::cvtColor(frame, processed_frame, CV_RGB2BGR);
             process_frame(processed_frame);
             cv::imshow("H.264", processed_frame);
             int key = cv::waitKey(10);

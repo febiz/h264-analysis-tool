@@ -1051,7 +1051,7 @@ typedef struct decoder_params
 extern DecoderParams  *p_Dec;
 
 // prototypes
-extern void error(char *text, int code);
+extern void error(const char *text, int code);
 
 // dynamic mem allocation
 extern int  init_global_buffers( VideoParameters *p_Vid, int layer_id );
