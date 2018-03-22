@@ -49,14 +49,14 @@ bool Vis::play(bool dec) {
             // cv::cvtColor(frame, processed_frame, CV_RGB2BGR);
             process_frame(processed_frame);
             cv::imshow("H.264", processed_frame);
-            int key = cv::waitKey(10);
+            int key = cv::waitKeyEx(10);
             if (key != -1) {
               printf("got a key %d\n", key);
             }
             // if key event disable mb_info
             enabled_mb_info_ = key > 0 ? false : enabled_mb_info_;
 
-            if (key == RIGHT_ARROW_CODE) {
+            if (key == RIGHT_ARROW_CODE || key == '>' || key == '.') {
                 // Detected right arrow: advance a frame.
                 std::vector<MacroblockInfo>* mb_data;
                 if (dec || get_mb_data(pos_+1, mb_data)) {
@@ -68,7 +68,7 @@ bool Vis::play(bool dec) {
                 } else {
                     // frame not available, need to fetch
                 }
-            } else if (key == LEFT_ARROW_CODE) {
+            } else if (key == LEFT_ARROW_CODE || key == '<' || key == ',') {
                 // Detected left arrow: go back a frame.
                 if (pos_ > 0) {
                     if (get_frame(pos_-1, frame)) {

@@ -62,8 +62,8 @@ f - toggle motion vectors
 m - toggle macroblock mode
 g - toggle macroblock grid
 p - toggle macroblock splits
-left-arrow - advance to next frame
-right-arrow - go back to previous frame
+left-arrow, '<', or ',' - go back to previous frame
+right-arrow, '>', or '.' - advance to next frame
 
 
 Creating H264 Byte Streams:
