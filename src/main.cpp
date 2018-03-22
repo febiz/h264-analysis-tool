@@ -1,23 +1,9 @@
-
-/*!
-***********************************************************************
-*  \file
-*     decoder_test.c
-*  \brief
-*     H.264/AVC decoder test 
-*  \author
-*     Main contributors (see contributors.h for copyright, address and affiliation details)
-*     - Yuwen He       <yhe@dolby.com>
-***********************************************************************
-*/
-
-#include "contributors.h"
 #include <sys/stat.h>
-extern "C" {
+ extern "C" {
 #include "win32.h"
 #include "h264decoder.h"
 #include "configfile.h"
-};
+ };
 // H264 AT
 #include "vis.h"
 #include "mbuffer.h"
@@ -118,7 +104,7 @@ static int WriteOneFrame(DecodedPicList *pDecPic, int hFileOutput0, int hFileOut
 					res = write(hFileOutput, pbBuf+i*iStride, iWidth);
 					if (-1==res)
 					{
-						error ("error writing to output file.", 600);
+						 error ("error writing to output file.", 600);
 					}
 				}
 
@@ -232,7 +218,7 @@ int main(int argc, char **argv)
 	fprintf(stdout, "Decoder output view1: %s\n", DECOUTPUT_VIEW1_FILENAME);
 #endif
 
-	init_time();
+	// init_time();  // TODO(matt): what is this for?
 
 	//get input parameters;
 	Configure(&InputParams, argc, argv);
@@ -256,7 +242,7 @@ int main(int argc, char **argv)
 		iRet = DecodeOneFrame(&pDecPicList);
 
 		// EXT --------------------------------------------------------------------
-		if (iFramesDecoded > 1) { // decode at least 2 frames
+		if (iFramesDecoded > 151) { // decode at least 2 frames
 			quit = visualizer.play(true);
 			if (quit)
 				break;

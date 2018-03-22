@@ -1,6 +1,7 @@
 #ifndef _MACROBLOCKINFO_H_
 #define _MACROBLOCKINFO_H_
 // StdLib
+#include <inttypes.h>
 #include <vector>
 // NOTE: we could use MotionVector but it includes defines.h where
 // ColorComponent is defined, thus leading to LNK2005 already defined
@@ -11,7 +12,7 @@ struct MotionVec {
 	short mv_y;
 };
 // JM forward declaration
-typedef long long int64;
+// typedef long long int64_t;
 
 // structure to store relevant information (subset of Macroblock)
 class MacroblockInfo {
@@ -22,7 +23,7 @@ public:
 	int qp;
 	short mb_type;
 	int slice_type;
-	int64 cbp_bits;
+	int64_t cbp_bits;
 	std::vector<short> sub_mb_type;
 	MotionVec get_mv(int blk_x, int blk_y, int list);
 	int get_ref_idx(int blk_x, int blk_y, int list);

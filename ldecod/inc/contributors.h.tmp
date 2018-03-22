@@ -1,0 +1,33 @@
+
+/*! \file
+ *     contributors.h
+ *  \brief
+ *     List of contributors and copyright information.
+ *
+ *  \par Copyright statements
+    \verbatim
+   H.264 JM coder/decoder
+
+   Copyright (C) 2000 by
+      Telenor Satellite Services, Norway
+      Ericsson Radio Systems, Sweden
+      TELES AG, Germany
+      Nokia Inc., USA
+      Nokia Corporation, Finland
+      Siemens AG, Germany
+      Fraunhofer-Institute for Telecommunications Heinrich-Hertz-Institut (HHI), Germany
+      University of Hannover, Institut of Communication Theory and Signal Processing, Germany
+      TICSP, Tampere University of Technology, Finland
+      Munich University of Technology, Institute for Communications Engineering, Germany
+      Videolocus, Canada
+      Motorola Inc., USA
+      Microsoft Corp., USA
+      Apple Computer, Inc.
+      RealNetworks, Inc., USA
+      Thomson, Inc., USA
+      Sejong Univ., Digital Media System Lab., Korea
+  \endverbatim
+  \par Full Contact Information
+  \verbatim
+
+      Lowell Winger                   <lwinger@videolocus.com><lwinger@uwaterloo.ca>
